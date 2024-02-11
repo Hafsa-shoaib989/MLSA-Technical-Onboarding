@@ -16,26 +16,26 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/image1.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "white and blue abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a dedicated and passionate student currently in my 3rd year at UIT-NED. I am a Research Intern @MERL and also an Alpha MLSA. I actively honing my skills in collaborative development and version control. I am an active member of various tech communities and initiatives. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
+  "Web developer",
+  "Python | Django",
+  "Chisel/Scala",
+  "RISC-V",
+  "Functional Programming",
   "Graphic design",
 ];
 
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "My journey into programming started with curiosity and has since become a deep passion. Extremely motivated to constantly develop my skills and grow professionally.";
 
 const About = () => {
   return (

@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../portfolio.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "laptop on table";
 
 /**
  * Project list
@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "RISC-V Vector Extension (Vaquita) 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "RISC-V Vector Extension is a CHISEL based project that enables the execution of all Vector instructions and adds support for Vector processing",
+    url: "https://github.com/Hafsa-shoaib989/vaquita",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Cyber Cafe",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Cyber cafe is a python based project that has converted all the manual work into an automated system, implementing CRUD functionality using SQL for managing and automating the cafe's operations and services.",
+    url: "https://github.com/Hafsa-shoaib989/Cyber-Cafe",
   },
   {
-    title: "My Resume Site",
+    title: "Hotel Management System",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Hotel Management System is a project focused on establishing an interconnected and efficient network infrastructure using Cisco Packet Tracer. Spanning three floors, each dedicated to specific departments, the system ensures seamless communication and collaboration.",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Pasban Five Stage Pipelined Core",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Five Stage Pipelined Processor Core based on RISC-V ISA, supporting Integer(i) extension, implemented on CHISEL HCL. ",
+    url: "https://github.com/Hafsa-shoaib989/5-Stage-Pipeline",
   },
 ];
 
